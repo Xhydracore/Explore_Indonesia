@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grad">
+    <LinearLayout
+        android:id="@+id/relay3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#65DCE3">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/second_layer">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:background="@drawable/first_layer">
+                    <androidx.cardview.widget.CardView
+                        android:layout_margin="-5dp"
+                        android:layout_marginStart="-1dp"
+                        android:layout_width="415dp"
+                        android:layout_height="200dp"
+                        app:cardElevation="0dp"
+                        app:cardCornerRadius="8pt">
+                        <ImageView
+                            android:id="@+id/ivWisataImage"
+                            tools:ignore="ContentDescription"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            tools:src="@android:color/darker_gray"
+                            android:scaleType="centerCrop"
+                            android:transitionName="@string/transisi"/>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/tv_item_name"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/product_sans_bold"
+                        android:text="@string/nama_wisata"
+                        android:textColor="@color/white"
+                        android:textSize="27sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_item_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorSubTitle"
+                        android:text="@string/detail"
+                        android:layout_marginBottom="50px"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/product_sans_regular"/>
+
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30px"
+                    android:paddingTop="30px"
+                    android:paddingBottom="30px"
+                    android:gravity="center"
+                    android:background="@drawable/second_layer">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginStart="55dp"
+                        android:layout_marginEnd="60dp">
+
+                        <ImageView
+                            android:id="@+id/location"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_location_on_black_24dp" />
+
+                        <Button
+                            android:id="@+id/find_maps"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_toEndOf="@id/location"
+                            android:layout_toRightOf="@id/location"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:background="@drawable/background_transparent"
+                            android:fontFamily="@font/product_sans_bold"
+                            android:gravity="center"
+                            android:text="E X P L O R E !"
+                            android:textColor="@color/white"
+                            android:textSize="20sp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relay3"
+        android:background="@drawable/background_scrollview">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:justificationMode="inter_word"
+                android:id="@+id/tv_item_deskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/lorem"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

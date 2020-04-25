@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Explore Indonesia</string>
+    <string name="nama_wisata">Nama Wisata</string>
+    <string name="detail">Detail</string>
+    <string name="about">About</string>
+    <string name="smg_id">Smg, id</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Ad aliquid dignissimos eos itaque laudantium praesentium? A alias,
+        architecto blanditiis harum incidunt laborum libero minima non nostrum,
+        quod sint sit soluta, suscipit unde vero voluptas voluptate voluptatem.
+        Commodi dolorem eaque eum fuga molestias odit perferendis provident,
+        quasi recusandae reiciendis, unde voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Ad aliquid dignissimos eos itaque laudantium praesentium? A alias,
+        architecto blanditiis harum incidunt laborum libero minima non nostrum,
+        quod sint sit soluta, suscipit unde vero voluptas voluptate voluptatem.
+        Commodi dolorem eaque eum fuga molestias odit perferendis provident,
+        quasi recusandae reiciendis, unde voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Ad aliquid dignissimos eos itaque laudantium praesentium? A alias,
+        architecto blanditiis harum incidunt laborum libero minima non nostrum,
+        quod sint sit soluta, suscipit unde vero voluptas voluptate voluptatem.
+        Commodi dolorem eaque eum fuga molestias odit perferendis provident,
+        quasi recusandae reiciendis, unde voluptas?</string>
+    <string name="transisi">transisi</string>
+</resources>
